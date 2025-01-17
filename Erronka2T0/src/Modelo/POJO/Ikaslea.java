@@ -20,5 +20,9 @@ public class Ikaslea {
 	public void setIzena(String izena) {
 		this.izena = izena;
 	}
+	@Override
+	public String toString() {
+		return "Ikaslea [idIkasle=" + idIkasle + ", izena=" + izena + "]";
+	}
 
 }
